@@ -1,4 +1,3 @@
-import CallMe from "./components/CallMe";
 import Marquee from "./components/Marquee";
 import States from "./components/States";
 
