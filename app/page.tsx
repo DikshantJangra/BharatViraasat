@@ -1,5 +1,6 @@
 import CallMe from "./components/CallMe";
 import Marquee from "./components/Marquee";
+import States from "./components/States";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       (Homepage - to be edited)
       </div>
       <Marquee />
-      <CallMe />
+      <States />
     </>
   );
 }

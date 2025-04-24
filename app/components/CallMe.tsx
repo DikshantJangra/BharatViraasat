@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import { BiVolumeMute, BiVolumeFull } from "react-icons/bi";
 
 const CallMe = () => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isMuted, setIsMuted] = useState(true)
   const handlePlayWithAudio = () => {
       if (videoRef.current) {
